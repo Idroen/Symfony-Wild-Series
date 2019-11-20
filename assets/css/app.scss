@@ -1,0 +1,26 @@
+$theme-colors: (
+        "light":#048b9a,
+);
+$font-color: #303030;
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #fffdd0;
+    color: $font-color;
+}
+.navbar-light .navbar-brand{
+    color: #f88e55;
+    font-weight: bold;
+}
+
+.btn-outline-success {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #FFFFFF;
+}
